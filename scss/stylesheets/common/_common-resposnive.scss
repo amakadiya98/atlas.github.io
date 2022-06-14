@@ -1,0 +1,178 @@
+//laptop devices
+@media only screen and (max-width: 1440px){
+    .container{
+        max-width: 1140px;
+    }
+} 
+//sall screen laptop
+@media only screen and (max-width:1366px){
+}
+//very small screen laptop
+@media only screen and (max-width:1280px){
+}
+//ipad-pro(tablet)
+@media only screen and  (max-width: 1024px){
+    .container {
+        max-width: 960px;
+    }
+    .banner-section{
+        .bottom-part{
+            .parrelaal {
+                width: 912px;
+                .information{
+                    font-size: 18px;
+    padding: 26px 24px;
+                }
+        }
+    }  
+}
+    .third-section{
+        .slider-text-part{
+            .third-content{
+                .slider-part{
+                    img {
+                        height: 500px;
+                }
+            }
+        }
+    }   
+    }
+}
+//small ipad
+@media only screen and (max-width:991px){
+    .banner-section{
+        .bottom-part{
+            left: 35px;
+            .parrelaal {
+                width: 697px;
+                height: 108px;
+                .information{
+                    font-size: 12px;
+    padding: 26px 10px;
+    small{
+        font-size: 9px;
+    }
+                }
+        }
+    }  
+        .header-part {
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        &:after{
+                            width: 25%;
+                            left: -1px;
+                        }
+                    }
+                } 
+            }
+        }
+        .top-part{
+            .social-part{
+                width: 57%;
+            }
+        }
+        .menu-part{
+            width: 40%;
+        }
+    }
+    .four-section{
+        .content-part {
+            padding: 50px 0rem 35px 0;
+        }
+    } 
+    .footer-part{
+        .content{
+            flex-wrap: wrap;
+        }
+    }
+}
+//mobile devices
+@media only screen and(max-width:767px){
+    .banner-section{
+        .top-part{
+            h6{
+                font-size: 10px;
+            }
+            .social-part{
+                flex-wrap: wrap;
+                .social-link{
+                    width: 45%;
+                }
+                .phone{
+                    margin-top: 10px;
+                }
+            }
+        }
+        .header-content{
+            .heading-2{
+                display: none;
+            }
+        } 
+        .menu-part{
+            display: none;
+        }
+        .bottom-part{
+            display: none;
+        }
+    }
+    .second-section{
+        padding: 50px 0 70px;
+        .discription{
+            padding: 0;
+        }
+        .product-part{
+            padding: 0px 15px;
+            .imag-text-part{
+                .image-part {
+                    img{
+                        width: 60px;
+                    }
+                }
+            } 
+        }
+    }
+    .third-section{
+        .slider-text-part{
+            padding: 0;
+        }
+    }
+    .four-section{
+        .image-part{
+            height: 500px;
+            background-position: top;
+        }
+        .content-part{
+            padding: 10px 0;
+        }
+    }
+    .five-part{
+        .people-part{
+            margin: 10px;
+        }
+    }
+    .six-part{
+        .partner-part{
+            .partner{
+                img{
+                    width: 100%;
+                }
+            } 
+        } 
+    }
+    .footer-part{
+        .coppy-right{
+            flex-direction: column;
+            h6{
+                font-size: 9px;
+                letter-spacing: 1px;
+            }
+        }
+        .social-part{
+            margin-top: 10px;
+        }
+        .join_us .join{
+            padding: 13px 22px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+/*variable*/
+$font-stack:    'Kanit', sans-serif;
+@mixin heading{
+  font-weight: 800;
+  color: #333333;  
+}
+@mixin learn-more{
+    background-color: black;
+    color: white;
+    padding: 6px 25px;
+    text-decoration: none;
+    transition: 300ms;
+}
